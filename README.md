@@ -1,1 +1,1 @@
-wagiadventures.github.io
+wagiadventures.github.io/Index.html
