@@ -23,6 +23,10 @@ a:link {
     padding: 10px 15px;
 }
 
+a{
+    color: #1c1c1d;
+}
+
 .promo {
     padding-top: 250px;
     display: flex;
