@@ -1,0 +1,137 @@
+
+header{
+    top: 0;
+    font-size: 24px ;
+    position: fixed;
+    width: 99.6%;
+    z-index: 100;
+    font-family: 'Lato', sans-serif;
+    color: #0D315B;
+}
+.logo{
+    padding-left: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.icons{
+    padding-right: 50px;
+}
+
+.wrapper{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a:link {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #0D315B;
+}
+
+a{
+    color: #0D315B;
+}
+
+.promo {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    line-height: 0px;
+}
+
+.promo h1{
+    padding-top: 110px;
+    font-family:'Alata', sans-serif;
+    font-size: 4.5rem;
+    text-align: center;
+    color: #f3f3f3
+}
+
+.promo p{
+    font-family:'Alata', sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #f3f3f3;
+}
+
+#hero{
+    min-height: 115vh;
+    position: relative;
+}
+
+.aboutus{
+    display: flex;
+    flex-flow: column;
+    z-index: 0;
+}
+
+.aboutus .content h3{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    font-size: 85px;
+    top: 325px;
+    left: 135px;
+}
+
+.aboutus .image-container img{
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.aboutus .content2{
+    text-align: justify;
+    color: #0D315B;
+    font-size: 25px;
+    top: 250px;
+    left: 135px;
+    font-family: 'Alata', sans-serif;
+}
+
+.aboutus .content2 div{
+    padding: 55px;
+    padding-left: 90px;
+    width: 60%;
+}
+
+.aboutus .image-png img{
+    position: absolute;
+    top: 580px; left: 850px;
+    width: 25%;
+}
+
+.aboutus .content2 h3{
+    text-align: center;
+    color: #545454;
+    font-size: 65px;
+    top: 250px;
+    left: 135px;
+    font-family: 'Lato', sans-serif;
+}
+
+.box-container{
+    display: flex;
+    align-content: space-between;
+}
+
+.box{
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
